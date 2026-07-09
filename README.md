@@ -2,6 +2,13 @@
 
 - use : https://dev.to/wolfram27/setting-up-and-using-onnx-runtime-for-c-in-linux-1ho9
 
+```bash
+sudo apt update
+sudo apt install build-essential cmake
+tar xzf onnxruntime-linux-x64-1.27.0.tgz
+cp -r include lib ./external/onnxruntime # path of project
+```
+
 
 # build application
 
